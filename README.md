@@ -1,6 +1,6 @@
-# Title: "Furniture Mart "
+# Title: "Bike Vally "
 
-## Live site link:"https://my-furniture-website.web.app/"
+## Live site link:""
 
 ### Road map:
 
@@ -12,4 +12,5 @@
 <li>Font awesome & private route were used for the project.</li>
 <li>I had to make Email Authentication and password with Google sign in.
 </li>
+
 </ul>

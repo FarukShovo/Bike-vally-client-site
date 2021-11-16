@@ -45,7 +45,7 @@ const LogIn = () => {
     <>
       <div className="login py-5 w-100 ">
         <div className=" p-5">
-          <h3 className="text-center text-red pb-3">Login</h3>
+          <h4 className="text-center text-red pb-3"> <span>L</span><span>o</span><span>g</span><span>i</span><span>n</span></h4>
           <div className="w-50 mx-auto">
             <form onSubmit={handleSubmit(onSubmit)}>
               <input
