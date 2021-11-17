@@ -39,7 +39,7 @@ const Speciality = () => {
           <i className="fas fa-hotel">
             <FcEngineering></FcEngineering>
           </i>
-          <h3>exclusive design</h3>
+          <h3>exclusive bike</h3>
           <p>Choose from our huge collections</p>
         </div>
         <div className="box">
@@ -62,7 +62,7 @@ const Speciality = () => {
             <FcProcess></FcProcess>
           </i>
           <h3>eco friendly</h3>
-          <p>we provide eco friendly and bio-degradable products</p>
+          <p>we provide eco friendly bikes</p>
         </div>
         <div className="box">
           <i className="fas fa-plane">
@@ -91,7 +91,7 @@ const Speciality = () => {
           </i>
           <h3>warranty policy</h3>
           <p>
-            1 Year warranty for all furniture (unless otherwise stated). *
+            we provides warranty for first two servicings  (unless otherwise stated). *
             Conditions Apply
           </p>
         </div>
@@ -101,7 +101,7 @@ const Speciality = () => {
           </i>
           <h3>Assembling</h3>
           <p>
-            Our expert team is always ready to assemble your furniture for free!
+            Our expert team is always ready to assemble your modified bike for new test!
           </p>
         </div>
         <div className="box">
@@ -115,8 +115,8 @@ const Speciality = () => {
           <i className="fas fa-hiking">
             <FcTreeStructure></FcTreeStructure>
           </i>
-          <h3>Knockdown</h3>
-          <p>You can easily dismantle your furniture.</p>
+          <h3>Serviceing</h3>
+          <p>You can easily solve your bike problems.</p>
         </div>
         <div className="box">
           <i className="fas fa-hiking">

@@ -1,6 +1,6 @@
 # Title: "Bike Vally "
 
-## Live site link:""
+## Live site link:"https://bike-vally-c92588.netlify.app/"
 
 ### Road map:
 
@@ -10,6 +10,7 @@
 <li>In server side, any user can add, delete or update his/her liking as well as rating, make order and purchase.</li>
 <li>There was a dashboard part and where admin can login with (email address: admin@admin.com & password: 123456).</li>
 <li>Font awesome & private route were used for the project.</li>
+<li>Used netlify for deployment</li>
 <li>I had to make Email Authentication and password with Google sign in.
 </li>
 
