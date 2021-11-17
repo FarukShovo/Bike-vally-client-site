@@ -8,7 +8,7 @@ const Payment = () => {
       </h2>
       <img
         style={{ width: "500px" }}
-        src="https://i.ibb.co/MGXsY3Q/coming-soon.jpg"
+        src="https://w7.pngwing.com/pngs/466/694/png-transparent-coming-soon-sign-board-advertisement-banner-card.png"
         alt=""
       />
     </div>

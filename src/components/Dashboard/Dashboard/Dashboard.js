@@ -38,23 +38,23 @@ const Dashboard = () => {
         <div className="row">
           <div className="col-md-3 ">
             <div className="dashboard">
-              <h5 style={{ margin: 50 }} className="text-center">
+              <h2 style={{ margin: 50, color: "red" }} className="text-center">
                 Dashboard
-              </h5>
+              </h2>
               {!admin && (
                 <div>
                   <Link to={`${url}/myOrder`}>
-                    <li className="dashboard-menu btn btn-primary mt-5">
+                    <li className="dashboard-menu btn btn-warning mt-5">
                       My Order
                     </li>
                   </Link>
                   <Link to={`${url}/payment`}>
-                    <li className="dashboard-menu btn btn-primary mt-5">
+                    <li className="dashboard-menu btn btn-warning mt-5">
                       Payment
                     </li>
                   </Link>
                   <Link to={`${url}/review`}>
-                    <li className="dashboard-menu btn btn-primary mt-5">
+                    <li className="dashboard-menu btn btn-warning mt-5">
                       Review
                     </li>
                   </Link>
@@ -64,28 +64,28 @@ const Dashboard = () => {
               {admin && (
                 <div>
                   <Link to={`${url}/addProduct`}>
-                    <li className="dashboard-menu btn btn-primary mt-5">
+                    <li className="dashboard-menu btn btn-warning mt-5">
                       Add Product
                     </li>
                   </Link>
                   <Link to={`${url}/makeAdmin`}>
-                    <li className="dashboard-menu btn btn-primary">
+                    <li className="dashboard-menu btn btn-warning">
                       Make Admin
                     </li>
                   </Link>
                   <Link to={`${url}/manageProducts`}>
-                    <li className="dashboard-menu btn btn-primary ">
+                    <li className="dashboard-menu btn btn-warning ">
                       Manage Product
                     </li>
                   </Link>
                   <Link className="w-100" to={`${url}/manageOrder`}>
-                    <li className="dashboard-menu btn btn-primary ">
+                    <li className="dashboard-menu btn btn-warning ">
                       Manage Order
                     </li>
                   </Link>
                 </div>
               )}
-              <button onClick={logOut} className="btn btn-primary">
+              <button onClick={logOut} className="btn btn-warning">
                 Log out
               </button>
             </div>
